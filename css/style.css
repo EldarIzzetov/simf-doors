@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;500&display=swap');
+.container{
+    width: 1200px;
+    margin: 0 auto;
+}
+.header__logo{
+    width: 100px;
+    height: 100px;
+}
+.section-about-us{
+text-align: center;
+
+}
+.main__title{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 40px;
+    margin-top: 20px;
+
+}
+.section-about-us__main-info{
+    display: flex;
+    align-items: center;
+}
+.section-about-us__main-info img{
+    width: 500px;
+    height: 400px;
+    border-radius: 25px;
+}
+.section-about-us__main-info{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 25px;
+
+}
+
+footer{
+    margin-top: 50px;
+    background-color: chartreuse;
+    padding: 20px;
+}
+.section-catalog__row-item img{
+    width: 156px;
+    height: 300px;
+}
+.section-catalog__row{
+    display: flex;
+    justify-content: space-between;
+}
+.section-catalog__row-item{
+    border: 1px rgb(123, 255, 0) solid;
+    border-radius: 25px;
+    text-align: center;
+    padding: 25px;
+    margin: 25px;
+    width: 500px;
+}
+.btn-open{
+text-decoration: none;
+width: 200px;
+height: 100px;
+background-color: chartreuse;
+padding: 10px;
+text-align: center;
+color: black;
+border-radius: 25px;
+}
+.btn-open-and-buy{
+    margin: 30px;
+    width: 400px;
+    background-color: chartreuse;
+    text-decoration: none;
+    padding: 10px;
+text-align: center;
+color: black;
+}
+.btn-buy{
+    text-decoration: none;
+width: 400px;
+height: 100px;
+background-color: chartreuse;
+padding: 10px;
+text-align: center;
+color: black;
+border-radius: 25px;
+margin-bottom: 20px;
+}
+.section-product{
+    text-align: center;
+}
